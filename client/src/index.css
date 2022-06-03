@@ -1,0 +1,41 @@
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --bg-color: #000d0e;
+  --red: #f82525;
+  --green: #05c48e;
+  --yellow: #facc41;
+  --dark-1: #270a0a;
+}
+
+*, 
+*::before, 
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--white)
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.content {
+  margin-top: 2%;
+  padding: 0 2%;
+}
+
+.red {
+  color: var(--red) !important;
+}
+
+.green {
+  color: var(--green) !important;
+}
